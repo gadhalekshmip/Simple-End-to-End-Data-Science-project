@@ -1,15 +1,5 @@
 # datascienceproject
 
-## commands : create env : ''conda create -p venv python==3.10 -y''
-
-## create template that will have entire folder structure
-
-### seting logger
-
-## configboc , ensure annotation ,read yaml a
-
--> Data ingestion , constant , research- classes and fn
-
 
 ### Workflows -- ML PIPELINE
 1. Data ingestion
@@ -27,3 +17,15 @@
 6. Update the components
 7. Update the pipeline 
 8. Update the main.py
+
+
+## commands : create env : ''conda create -p venv python==3.10 -y''
+
+## create template that will have entire folder structure
+
+ seting logger
+
+ setting constants , configboc needed for data ingestion
+
+-> Data ingestion , constant , research- classes and fn
+
