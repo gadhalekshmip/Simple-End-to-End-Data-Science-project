@@ -5,7 +5,7 @@
 1. Data ingestion
 2. Data transformation
 3. Model trainer
-4. Model Evaluation
+4. Model Evaluation - MLFLOW ,dagshub
 
 ## workflows
 
