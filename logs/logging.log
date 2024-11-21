@@ -1,1 +1,80 @@
 [2024-11-20 11:45:35,225: INFO: main: Welcome to our custom logging in datascience]
+[2024-11-20 16:44:23,727: INFO: common: yaml file:config\config.yamlloaded sucessfully]
+[2024-11-20 16:45:16,288: INFO: common: yaml file:config\config.yamlloaded sucessfully]
+[2024-11-20 16:45:42,845: INFO: common: yaml file:config\config.yamlloaded sucessfully]
+[2024-11-20 16:48:01,865: INFO: common: yaml file:config\config.yamlloaded sucessfully]
+[2024-11-20 16:48:01,865: INFO: common: yaml file:params.yamlloaded sucessfully]
+[2024-11-20 16:48:01,872: INFO: common: yaml file:schema.yamlloaded sucessfully]
+[2024-11-20 16:48:01,873: INFO: common: created directory at:artifacts]
+[2024-11-20 16:48:01,873: INFO: common: created directory at:artifacts/data_ingestion]
+[2024-11-20 16:48:02,813: INFO: 251335794: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 8A4B:4B881:37B2D:40815:673DC558
+Accept-Ranges: bytes
+Date: Wed, 20 Nov 2024 11:17:45 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100020-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1732101465.085240,VS0,VE296
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: eb6c7b3a2fbda4b5adc2d33b932c4e5311e0a420
+Expires: Wed, 20 Nov 2024 11:22:45 GMT
+Source-Age: 0
+
+]
+[2024-11-20 17:38:48,929: INFO: main: >>>>stage Data Ingestion stage started <<<<<]
+[2024-11-20 17:38:48,929: INFO: common: yaml file:config\config.yamlloaded sucessfully]
+[2024-11-20 17:38:48,929: INFO: common: yaml file:params.yamlloaded sucessfully]
+[2024-11-20 17:38:48,929: INFO: common: yaml file:schema.yamlloaded sucessfully]
+[2024-11-20 17:38:48,929: INFO: common: created directory at:artifacts]
+[2024-11-20 17:38:48,929: INFO: common: created directory at:artifacts/data_ingestion]
+[2024-11-20 17:38:48,929: INFO: data_ingestion: File already exists]
+[2024-11-20 17:38:48,929: INFO: main: >>>> stage Data Ingestion stage completed <<<<
+
+ x=======x]
+[2024-11-21 11:20:41,602: INFO: main: >>>>stage Data Ingestion stage started <<<<<]
+[2024-11-21 11:20:41,610: INFO: common: yaml file:config\config.yamlloaded sucessfully]
+[2024-11-21 11:20:41,610: INFO: common: yaml file:params.yamlloaded sucessfully]
+[2024-11-21 11:20:41,618: INFO: common: yaml file:schema.yamlloaded sucessfully]
+[2024-11-21 11:20:41,618: INFO: common: created directory at:artifacts]
+[2024-11-21 11:20:41,618: INFO: common: created directory at:artifacts/data_ingestion]
+[2024-11-21 11:20:41,618: INFO: data_ingestion: File already exists]
+[2024-11-21 11:20:41,636: INFO: main: >>>> stage Data Ingestion stage completed <<<<
+
+ x=======x]
+[2024-11-21 13:12:49,885: INFO: common: yaml file:config\config.yamlloaded sucessfully]
+[2024-11-21 13:12:49,887: INFO: common: yaml file:params.yamlloaded sucessfully]
+[2024-11-21 13:12:49,901: INFO: common: yaml file:schema.yamlloaded sucessfully]
+[2024-11-21 13:12:49,901: INFO: common: created directory at:artifacts]
+[2024-11-21 13:12:49,904: INFO: common: created directory at:artifacts/data_validation]
+[2024-11-21 13:35:05,900: INFO: main: >>>>stage Data Ingestion stage started <<<<<]
+[2024-11-21 13:35:05,900: INFO: common: yaml file:config\config.yamlloaded sucessfully]
+[2024-11-21 13:35:05,904: INFO: common: yaml file:params.yamlloaded sucessfully]
+[2024-11-21 13:35:05,907: INFO: common: yaml file:schema.yamlloaded sucessfully]
+[2024-11-21 13:35:05,907: INFO: common: created directory at:artifacts]
+[2024-11-21 13:35:05,907: INFO: common: created directory at:artifacts/data_ingestion]
+[2024-11-21 13:35:05,907: INFO: data_ingestion: File already exists]
+[2024-11-21 13:35:05,909: INFO: main: >>>> stage Data Ingestion stage completed <<<<
+
+ x=======x]
+[2024-11-21 13:35:05,909: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-11-21 13:35:05,909: INFO: common: yaml file:config\config.yamlloaded sucessfully]
+[2024-11-21 13:35:05,909: INFO: common: yaml file:params.yamlloaded sucessfully]
+[2024-11-21 13:35:05,918: INFO: common: yaml file:schema.yamlloaded sucessfully]
+[2024-11-21 13:35:05,918: INFO: common: created directory at:artifacts]
+[2024-11-21 13:35:05,918: INFO: common: created directory at:artifacts/data_validation]
+[2024-11-21 13:35:05,940: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
