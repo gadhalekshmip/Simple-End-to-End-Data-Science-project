@@ -36,7 +36,8 @@ This README provides a guide to set up, develop, and deploy an end-to-end data s
 ### Create a Conda Environment
 ```bash
 conda create -p venv python==3.10 -y
-conda activate ./venv
+conda activate ./venv  
+```
 
 Project Setup
 Initialize Logger: Configure the logger for the project.
