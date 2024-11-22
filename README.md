@@ -47,7 +47,7 @@ Set Pipelines:
 Define pipelines for training and evaluation.
 Setup Flask: Build an API for the project using Flask.
 
-##MLFLOW tracking via dagshub
+## MLFLOW tracking via dagshub
 
 ### **Run app using**
 python app.py
