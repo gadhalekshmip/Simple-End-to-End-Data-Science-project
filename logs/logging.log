@@ -498,3 +498,65 @@ x==========x]
 [2024-11-22 11:16:46,502: INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-11-22 11:56:15,189: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.0.168:8080]
+[2024-11-22 11:56:15,189: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-11-22 11:56:22,653: INFO: _internal: 127.0.0.1 - - [22/Nov/2024 11:56:22] "GET / HTTP/1.1" 200 -]
+[2024-11-22 11:56:22,662: INFO: _internal: 127.0.0.1 - - [22/Nov/2024 11:56:22] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2024-11-22 11:56:22,688: INFO: _internal: 127.0.0.1 - - [22/Nov/2024 11:56:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-11-22 11:56:57,413: INFO: main: >>>>stage Data Ingestion stage started <<<<<]
+[2024-11-22 11:56:57,415: INFO: common: yaml file:config\config.yamlloaded sucessfully]
+[2024-11-22 11:56:57,416: INFO: common: yaml file:params.yamlloaded sucessfully]
+[2024-11-22 11:56:57,417: INFO: common: yaml file:schema.yamlloaded sucessfully]
+[2024-11-22 11:56:57,418: INFO: common: created directory at:artifacts]
+[2024-11-22 11:56:57,418: INFO: common: created directory at:artifacts/data_ingestion]
+[2024-11-22 11:56:57,418: INFO: data_ingestion: File already exists]
+[2024-11-22 11:56:57,420: INFO: main: >>>> stage Data Ingestion stage completed <<<<
+
+ x=======x]
+[2024-11-22 11:56:57,420: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-11-22 11:56:57,423: INFO: common: yaml file:config\config.yamlloaded sucessfully]
+[2024-11-22 11:56:57,424: INFO: common: yaml file:params.yamlloaded sucessfully]
+[2024-11-22 11:56:57,425: INFO: common: yaml file:schema.yamlloaded sucessfully]
+[2024-11-22 11:56:57,425: INFO: common: created directory at:artifacts]
+[2024-11-22 11:56:57,426: INFO: common: created directory at:artifacts/data_validation]
+[2024-11-22 11:56:57,438: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-11-22 11:56:57,438: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-11-22 11:56:57,445: INFO: common: yaml file:config\config.yamlloaded sucessfully]
+[2024-11-22 11:56:57,446: INFO: common: yaml file:params.yamlloaded sucessfully]
+[2024-11-22 11:56:57,448: INFO: common: yaml file:schema.yamlloaded sucessfully]
+[2024-11-22 11:56:57,448: INFO: common: created directory at:artifacts]
+[2024-11-22 11:56:57,448: INFO: common: created directory at:artifacts/data_transformation]
+[2024-11-22 11:56:57,464: INFO: data_transformation: Splited data into training and test sets]
+[2024-11-22 11:56:57,465: INFO: data_transformation: (1199, 12)]
+[2024-11-22 11:56:57,465: INFO: data_transformation: (400, 12)]
+[2024-11-22 11:56:57,465: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-11-22 11:56:57,466: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-11-22 11:56:57,468: INFO: common: yaml file:config\config.yamlloaded sucessfully]
+[2024-11-22 11:56:57,470: INFO: common: yaml file:params.yamlloaded sucessfully]
+[2024-11-22 11:56:57,471: INFO: common: yaml file:schema.yamlloaded sucessfully]
+[2024-11-22 11:56:57,472: INFO: common: created directory at:artifacts]
+[2024-11-22 11:56:57,472: INFO: common: created directory at:artifacts/model_trainer]
+[2024-11-22 11:56:57,495: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-11-22 11:56:57,495: INFO: main: >>>>>> stage Model Evaluation stage started <<<<<<]
+[2024-11-22 11:56:57,496: INFO: common: yaml file:config\config.yamlloaded sucessfully]
+[2024-11-22 11:56:57,496: INFO: common: yaml file:params.yamlloaded sucessfully]
+[2024-11-22 11:56:57,496: INFO: common: yaml file:schema.yamlloaded sucessfully]
+[2024-11-22 11:56:57,496: INFO: common: created directory at:artifacts]
+[2024-11-22 11:56:57,496: INFO: common: created directory at:artifacts/model_evaluation]
+[2024-11-22 11:56:58,467: INFO: common: json file saved at:artifacts\model_evaluation\metrics.json]
+[2024-11-22 11:57:07,673: INFO: main: >>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-11-22 11:57:08,019: INFO: _internal: 127.0.0.1 - - [22/Nov/2024 11:57:08] "GET /train HTTP/1.1" 200 -]
+[2024-11-22 11:57:48,489: INFO: _internal: 127.0.0.1 - - [22/Nov/2024 11:57:48] "GET / HTTP/1.1" 200 -]
+[2024-11-22 11:57:48,500: INFO: _internal: 127.0.0.1 - - [22/Nov/2024 11:57:48] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2024-11-22 11:59:09,343: INFO: _internal: 127.0.0.1 - - [22/Nov/2024 11:59:09] "POST /predict HTTP/1.1" 200 -]

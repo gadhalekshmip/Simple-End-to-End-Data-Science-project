@@ -1,31 +1,51 @@
-# datascienceproject
+# End-to-End Data Science Project
+
+This README provides a guide to set up, develop, and deploy an end-to-end data science project pipeline. The workflow includes data ingestion, transformation, training, and evaluation, with a focus on reproducibility and tracking.
+
+---
+
+## **ML Pipeline Workflow**
+1. **Data Ingestion**: Collect and validate raw data.
+2. **Data Transformation**: Clean and preprocess the data.
+3. **Model Trainer**: Train the machine learning model.
+4. **Model Evaluation**: Evaluate performance using **MLflow** and **DagsHub**.
+
+---
+
+## **Development Workflow**
+### **1. Configurations**
+- **`config.yaml`**: Update this file with details about data paths, model parameters, and other pipeline configurations.
+- **`schema.yaml`**: Define the schema for the input dataset.
+- **`params.yaml`**: Specify hyperparameters and model settings.
+
+### **2. Update the Code**
+1. **Entities**:
+   - Define the schema for the entities (e.g., datasets, models).
+2. **Configuration Manager**:
+   - Use a configuration manager in `src/config` to load configurations dynamically.
+3. **Components**:
+   - Write modular code for pipeline components (e.g., data ingestion, transformation, model training).
+4. **Pipeline**:
+   - Define the sequence of steps in the pipeline.
+5. **Main Application**:
+   - Update `main.py` to integrate all components and run the pipeline.
+
+---
+
+## **Environment Setup**
+### Create a Conda Environment
+```bash
+conda create -p venv python==3.10 -y
+conda activate ./venv
+
+Project Setup
+Initialize Logger: Configure the logger for the project.
+Set Constants: Define constants and paths in src/config/constants.py.
+Set ConfigBox: Use ConfigBox to manage configurations efficiently.
+Set Pipelines:
+Define pipelines for training and evaluation.
+Setup Flask: Build an API for the project using Flask.
 
 
-### Workflows -- ML PIPELINE
-1. Data ingestion
-2. Data transformation
-3. Model trainer
-4. Model Evaluation - MLFLOW ,dagshub
-
-## workflows
-
-1. Update config.yaml
-2. Update schema.yaml
-3. Update params.yaml
-4. Update the entity
-5. Update the configuration manager in src config
-6. Update the components
-7. Update the pipeline 
-8. Update the main.py
-
-
-## commands : create env : ''conda create -p venv python==3.10 -y''
-
-## create template that will have entire folder structure
-
- seting logger
-
- setting constants , configboc needed for data ingestion
-
--> Data ingestion , constant , research- classes and fn
-
+### **Run app using**
+python app.py
